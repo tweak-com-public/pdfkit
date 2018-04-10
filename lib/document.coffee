@@ -44,6 +44,7 @@ class PDFDocument extends stream.Readable
     @initFonts()
     @initText()
     @initImages()
+    @initSVG()
 
     # Initialize the metadata
     @info =
@@ -77,6 +78,7 @@ class PDFDocument extends stream.Readable
   mixin require './mixins/text'
   mixin require './mixins/images'
   mixin require './mixins/annotations'
+  mixin require './mixins/svg'
 
   addPage: (options = @options) ->
     # end the current page if needed

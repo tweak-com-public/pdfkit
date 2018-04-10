@@ -9,7 +9,7 @@
     "document",
     "vector"
   ],
-  "version": "0.8.3",
+  "version": "0.8.3-tweak.1",
   "homepage": "http://pdfkit.org/",
   "author": {
     "name": "Devon Govett",
@@ -35,9 +35,10 @@
     "markdown": "~0.5.0"
   },
   "dependencies": {
-    "fontkit": "^1.0.0",
+    "fontkit": "git+https://github.com/tweak-com-public/fontkit.git",
     "linebreak": "^0.3.0",
-    "png-js": ">=0.1.0"
+    "png-js": "^0.1.1",
+    "svg-to-pdfkit": "^0.1.7"
   },
   "scripts": {
     "prepublish": "make js",
