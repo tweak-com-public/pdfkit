@@ -2,7 +2,7 @@
 (function() {
   var SVGtoPDF;
 
-  SVGtoPDF = require('svg-pdfkit');
+  SVGtoPDF = require('svg-to-pdfkit');
 
   module.exports = {
     initSVG: function() {
